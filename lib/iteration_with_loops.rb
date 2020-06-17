@@ -28,8 +28,9 @@ def find_even_values(src)
   while row_index < src.length do 
     inner_index = 0 
     while inner_index < src[row_index].length do
-      
+      inner_index += 1
     end
+    row_index += 1
   end
   
 end
